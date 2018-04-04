@@ -268,7 +268,7 @@ def SectionMenu():
         if __settings__.getSetting("AnimeOnline") == "true":
             _addon.add_directory({'mode': 'SubMenu', 'site': site, 'section': 'animeonline'}, {'title': cFL('Anime-Odcinki PL', 'blue')}, is_folder=True, fanart=fanartAol, img=icnoAnimecentrum)
 ###Wbijam.pl###
-        if __settings__.getSetting("AnimeOnline") == "true":
+#        if __settings__.getSetting("AnimeOnline") == "true":
         _addon.add_directory({'mode': 'Pagewbijam', 'site': site, 'section': 'wbijam', 'url': mainSite}, {'title': cFL('Wbijam.pl PL', 'blue')}, is_folder=True, fanart=fanartAol, img=iconWbijam)
 ###AnimeZone###
         if __settings__.getSetting("AnimeZone") == "true":
